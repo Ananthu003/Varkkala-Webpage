@@ -1,0 +1,292 @@
+*{
+    font-family: "Sedan SC", serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+header{
+    height: 650px;
+    width: 100%;
+    background-image: url(./images/VARKALA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header_img{
+    width: 100%;
+    height: 600px;
+    
+}
+
+.nav_bar{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#nav_img{
+    width: 270px;
+    margin-left: 50px;
+}
+
+.nav_bar ul li{
+    list-style: none;
+    display: inline;
+    font-size: 25px;
+    margin-left: 90px;
+    font-weight: 900;
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_bar a:hover{
+    color: darkgoldenrod;
+}
+
+.HOME_Container{
+    margin-top: 40px;
+    height: 500px;
+    width: 55%;
+    background-color: whitesmoke;
+    position: relative;
+    margin-left: 100px;
+}
+
+#HOME{
+    margin-top: 50px;
+}
+
+.Home_Intro_Welcome{
+    position: absolute;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    height: 20px;
+    width: 400px;
+}
+
+.Home_Intro{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    margin-top: 100px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.Details p{
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 15px;    
+}
+
+.Details_2{
+    position: absolute;
+   height: 100%;
+   width: 98%;
+   margin-top: 540px;
+   text-align: justify;
+}
+
+.Details_2 p{
+    font-size: 16px;
+}
+
+.Enquiry{
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    background-color: #48423a ;
+    left: 68%;
+  bottom: -88%;
+}
+
+.Enquiry h1{
+    color: white;
+   margin-top: 20px;
+   margin-left: 30px;
+   text-decoration: underline;
+}
+
+.input_container{
+   height: 70%;
+   width: 80%;
+   margin-top: 20px;
+   margin-left: 27px;
+}
+
+.name{
+    margin-top: 8px;
+    height: 30px;
+    width: 210px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.name_{
+    height: 80px;
+    width: 210px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    border-radius: 5px; 
+}
+
+.Button{
+    height: 35px;
+    width: 210px;
+    background-color: azure;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    background-color: #a69680;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+
+#IMAGES{
+    margin-top: 200px;
+}
+
+.Image_Container{
+    background-color: bisque;
+    height: 500px;
+}
+
+.Image_Contaioner_1{
+    height: 300px;
+    width: 400px;
+    background-color: aqua;
+    margin-left: 100px;
+}
+
+.Image_Size{
+    height: 100%;
+    width: 100%;
+}
+
+.Image_Container_2{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background-color: aqua;
+    margin-left: 40px;
+    left: 500px;
+    top: 217%;
+}
+
+.Image_Container_3{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background-color: aqua;
+    margin-left: 40px;
+    left: 950px;
+    top: 217%;
+}
+
+#MAP{
+    margin-top: 380px;
+}
+
+.Varkala_Location{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Map_Container{
+    height: 500px;
+    width: 980px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.Map_Size{
+    height: 100%;
+    width: 100%;
+}
+
+#CONTACT_US{
+    margin-top: 200px;
+}
+
+.heading h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.Contact_Details{
+    height: 400px;
+    width: 87%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.Contact_Details p{
+    text-align: center;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.icon_set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.icon, .up-arrow{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.icon i{
+    font-size: 30px;
+    color: black;
+}
+
+
+.icon:hover{
+    background-image: linear-gradient(to bottom right, yellow, red);
+}
+
+.up-arrow{
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.up-arrow:hover{
+    background-image: linear-gradient(to bottom right, yellow, red);
+}
